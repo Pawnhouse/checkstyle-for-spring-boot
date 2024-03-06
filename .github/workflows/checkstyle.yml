@@ -13,3 +13,4 @@ jobs:
           github_token: ${{ secrets.github_token }}
           reporter: github-check
           filter_mode: nofilter
+          checkstyle_config: google_checks_revised.xml
